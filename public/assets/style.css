@@ -1,0 +1,27 @@
+@font-face {
+    font-family: BRoya;
+    src: local(BRoya);
+}
+body{
+    margin: 0;
+    padding: 0;
+    text-align: right !important;
+    font-family: BRoya !important;
+}
+
+.main-container{
+    background: #fff;
+}
+
+.all-container{
+    background: #c6c6c6;
+}
+
+p{
+    font-size: 22px;
+}
+
+.submit{
+
+    font-size: 20px;
+}

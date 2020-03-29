@@ -74,9 +74,9 @@ class FormController extends Controller
                 'guard.numeric' => 'گزینه مناسب بودن برای نگهبانی باید عددی باشد',
                 'guard.in' => 'گزینه مناسب بودن برای نگهبانی زیر مجموعه ی بازه تعیین شده نیست',
 
-                'stranger.required' => 'گزینه مناسب بودن برای آپارتمان باید انتخاب شود',
-                'stranger.numeric' => 'گزینه مناسب بودن برای آپارتمان باید عددی باشد',
-                'stranger.in' => 'گزینه مناسب بودن برای آپارتمان زیر مجموعه ی بازه تعیین شده نیست',
+                'stranger.required' => 'گزینه میزان غریبه دوستی باید انتخاب شود',
+                'stranger.numeric' => 'گزینه میزان غریبه دوستی باید عددی باشد',
+                'stranger.in' => 'گزینه میزان غریبه دوستی زیر مجموعه ی بازه تعیین شده نیست',
             ]);
 
         if($validate_request->fails()) { return response()->json(['error'=>$validate_request->errors()->first()],422);}
