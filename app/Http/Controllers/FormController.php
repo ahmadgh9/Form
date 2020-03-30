@@ -87,6 +87,7 @@ class FormController extends Controller
             ->where('compatibility_with_dogs',$request->dogs)->where('compatibility_with_children',$request->children)->where('compatibility_with_cats',$request->cats)->where('iq',$request->iq)
             ->where('guard',$request->guard)->where('stranger',$request->stranger)->get();
 
+
         return view('result',compact('dogs'));
     }
 }
